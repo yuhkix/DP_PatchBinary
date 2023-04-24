@@ -3,7 +3,7 @@ import sys
 import patch_binary as pb
 
 # Change with your Path to dp_x64 
-binary_file = r"C:\DPDev-Client\dp_x643.exe"
+binary_file = r"C:\DPDev-Client\dp_x64.exe"
 
 
 if not os.path.exists(binary_file):
