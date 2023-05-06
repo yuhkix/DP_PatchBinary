@@ -1,15 +1,20 @@
 import os
 import sys
+import shutil
 import patch_binary as pb
 
 # Change with your Path to dp_x64 
-binary_file = r"C:\DPDev-Client\dp_x64.exe"
+binary_file = r"dp_x64_original.exe"
 
 
 if not os.path.exists(binary_file):
     print('Error: File not found !')
     input('Press Enter Key to exit..')
     sys.exit()
+
+# Create Copy of Original File, and patch it
+shutil.copy(binary_file, "dp_x64_patched.exe")
+binary_file = "dp_x64_patched.exe"
 
 """
 Pattern can be like:
