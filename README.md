@@ -1,6 +1,6 @@
 ## DP-Patcher-rs
 
-A small Rust CLI that patches a specific Windows executable by searching for byte patterns and replacing them in-place. The tool works on a copy of the original file (Fileversion 170712_00088) to keep your source binary intact.
+A small Rust CLI that patches the [Dragon's Prophet](https://www.dragons-prophet.com/) executable by searching for byte patterns and replacing them in-place. The tool works on a copy of the original file (Fileversion 170712_00088) to keep your source binary intact.
 
 ### Highlights
 - **Rust only**: Simple, fast, and safe implementation in Rust (`src/main.rs`).
